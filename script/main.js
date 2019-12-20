@@ -222,7 +222,7 @@
             for(i=0;i<columnamatriz.length;i++){
                 try{
                     val=columnamatriz[i]/valorpivote;
-                    //console.log(columnamatriz[i]+"/"+valorpivote+ "="+val);
+                    console.log(columnamatriz[i]+"/"+valorpivote+ "="+val);
                 }catch(e){
                     val=0;
                 }
